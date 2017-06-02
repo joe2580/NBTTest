@@ -1,7 +1,6 @@
 package science.powell.lib.mc.nbt.tags;
 
 import java.io.DataInputStream;
-import java.io.IOException;
 import java.io.PrintStream;
 import java.util.HashMap;
 
