@@ -13,11 +13,6 @@ public class NBTTest {
 
     public static void main(String[] args) {
 
-        if (args.length < 2) {
-            System.err.println("Please provide an nbt folder and file name");
-            return;
-        }
-
         try {
 
             NBTDiskProvider prov = new NBTDiskProvider(Paths.get("test"));
