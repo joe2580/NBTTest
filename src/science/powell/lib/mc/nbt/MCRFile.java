@@ -79,10 +79,10 @@ public class MCRFile {
     }
 
     public void print(PrintStream output) {
+        output.println(toString());
         for (int z = 0; z < ZWIDTH; z++) {
             for (int x = 0; x < XWIDTH; x++) {
                 if (data[x][z] != null) {
-                    output.println(toString());
                     data[x][z].print(1, output);
                 }
             }
